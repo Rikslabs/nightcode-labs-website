@@ -1,0 +1,4 @@
+import type { HeadquartersStatus, MissionPath } from "./types";
+export const headquartersFloors: readonly string[] = ["NightCore Reactor Hall", "Engineering Division", "Products Laboratory", "Mission Control", "Research Labs", "Command Center"];
+export const missionPaths: readonly MissionPath[] = [["ENGINEER", ["Explore architecture", "Follow development", "Understand systems"]], ["DEVELOPER", ["Experiment with JARVIS", "Discover developer tools", "Build alongside NightCode"]], ["VISITOR", ["Follow research", "Observe progress", "Return for future updates"]]];
+export const headquartersStatus: readonly HeadquartersStatus[] = [["NightCore Reactor", "ONLINE"], ["Engineering Division", "ACTIVE"], ["Products Laboratory", "OPERATIONAL"], ["Mission Control", "MONITORING"], ["Research Labs", "ACTIVE"], ["Command Center", "READY"]];
